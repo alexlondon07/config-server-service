@@ -17,6 +17,8 @@ ext {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-sleuth', version: '3.1.0',6
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
